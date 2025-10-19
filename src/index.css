@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161b22;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #30363d;
+}
+
+.logo {
+  color: #58a6ff;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6edf3;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #58a6ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #0d1117;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #58a6ff;
+}
+
+.hero p {
+  margin: 1rem 0;
+  color: #c9d1d9;
+}
+
+.hero button {
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #2ea043;
+}
+
+/* Courses */
+.courses {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.course-card {
+  background-color: #161b22;           
+  border: 1px solid #30363d;           
+  border-radius: 12px;                 
+  width: 260px;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.course-card:hover {
+  transform: translateY(-6px) scale(1.02);  
+  border-color: #58a6ff;                   
+  box-shadow: 0 8px 20px rgba(88, 166, 255, 0.2);
+}
+
+.course-card h3 {
+  color: #58a6ff;             
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.course-card p {
+  color: #c9d1d9;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.level {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #21262d;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #8b949e;
+}
+
+/* Footer */
+.footer {
+  background-color: #161b22;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #30363d;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #238636;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.hero-button:hover {
+  background-color: #2ea043;
+  transform: scale(1.05);
+}
