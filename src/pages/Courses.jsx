@@ -1,6 +1,10 @@
-import CourseCard from "./CourseCard";
+import { useState } from "react";
+import SearchBar from "../components/SearchBar";
+import CourseList from "../components/CourseList";
 
-function CoursesSection() {
+function Courses() {
+    const [searchTerm, setSearchTerm] = useState("");
+
     const courses = [
         { id: 1, title: 'Interface Design Basics', description: 'Learn how to build attractive interfaces.', level: 'Junior' },
         { id: 2, title: 'UX Research Advanced', description: 'Deeply understand your users needs.', level: 'Middle' },
@@ -12,22 +16,18 @@ function CoursesSection() {
         { id: 8, title: 'UI Animation Masterclass', description: 'Take your UI to the next level with advanced animations.', level: 'Advanced' },
     ];
 
+    const filteredCourses = courses.filter(course =>
+        course.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
 
     return (
-        <section id="courses" className="courses">
+        <section id="courses">
             <h2>Courses</h2>
-            <div className="courses-list">
-                {courses.map(course => (
-                    <CourseCard
-                        key={course.id}
-                        title={course.title}
-                        description={course.description}
-                        level={course.level}
-                    />
-                ))}
-            </div>
+            <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+            <CourseList courses={filteredCourses} />
         </section>
     );
-}             
+}
 
-export default CoursesSection;
+export default Courses;

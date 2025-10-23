@@ -1,6 +1,6 @@
 import '../index.css';
 
-function CourseCard({title, description, level}) {
+function CourseCard({ title, description, level }) {
     return (
         <div className="course-card">
             <h3>{title}</h3>
