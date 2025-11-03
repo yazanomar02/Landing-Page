@@ -1,32 +1,23 @@
 import '../index.css';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from '../pages/Home';
-import Courses from '../pages/Courses';
+import { Link } from "react-router-dom";
 
 function Header() {
 
 
   return (
     <>
-
       <header className="header">
         <h1 className="logo">UI Mastery</h1>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/courses">Courses</Link>
-          {/* <Link to="/about">About</Link> */}
-
+          <a href='#courses'>Courses</a>
+          <a href='#bootcamp'>Bootcamp</a>
+          <a href='#events'>Events</a>
+          <a href='#article'>Article</a>
+          <a href="#contactUs" className="btn-contact">Contact Us</a>
         </nav>
       </header>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        {/* <Route path="/about" element={<About />} /> */}
-      </Routes>
-
     </>
-
   );
 }
 

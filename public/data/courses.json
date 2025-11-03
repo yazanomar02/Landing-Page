@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "UI Design Fundamentals",
+    "category": "Design",
+    "level": "Beginner",
+    "description": "Learn the core principles of interface design, color theory, typography, and layout.",
+    "image": "/images/1.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "UX Research Essentials",
+    "category": "UX",
+    "level": "Intermediate",
+    "description": "Master the process of user interviews, personas, and usability testing to create user-centered designs.",
+    "image": "/images/2.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Wireframing & Prototyping in Figma",
+    "category": "Design Tools",
+    "level": "Beginner",
+    "description": "Learn how to create effective wireframes and interactive prototypes using Figma.",
+    "image": "/images/3.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Design Systems & Components",
+    "category": "Design",
+    "level": "Advanced",
+    "description": "Build scalable design systems, reusable UI components, and maintain visual consistency.",
+    "image": "/images/4.png"
+  },
+  {
+    "id": 5,
+    "title": "User Journey Mapping",
+    "category": "UX",
+    "level": "Intermediate",
+    "description": "Understand how to visualize user flows and improve experiences with journey mapping.",
+    "image": "/images/5.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Usability Testing & Heuristics",
+    "category": "UX",
+    "level": "Advanced",
+    "description": "Test your designs with real users and apply usability heuristics to identify issues.",
+    "image": "/images/6.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Mobile App UI Design",
+    "category": "Design",
+    "level": "Intermediate",
+    "description": "Design beautiful, responsive, and intuitive mobile app interfaces that delight users.",
+    "image": "/images/7.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Accessibility in Design",
+    "category": "UX",
+    "level": "Intermediate",
+    "description": "Make your interfaces inclusive by applying accessibility guidelines (WCAG 2.1).",
+    "image": "/images/8.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "UI Animation & Microinteractions",
+    "category": "Design",
+    "level": "Advanced",
+    "description": "Add motion and interactivity to enhance the user experience with delightful animations.",
+    "image": "/images/9.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Portfolio & Case Study Building",
+    "category": "Career",
+    "level": "All Levels",
+    "description": "Learn how to present your projects and build a professional UI/UX portfolio that stands out.",
+    "image": "/images/10.jpeg"
+  }
+]
