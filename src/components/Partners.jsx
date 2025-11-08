@@ -1,6 +1,12 @@
-import '../index.css';
+import "../index.css";
 
-const partnersLogos = ['/logos/1.png', '/logos/2.png', '/logos/3.png', '/logos/4.png', '/logos/5.png'];
+const partnersLogos = [
+  "/logos/1.png",
+  "/logos/2.png",
+  "/logos/3.png",
+  "/logos/4.png",
+  "/logos/5.png",
+];
 
 function Partners() {
   return (

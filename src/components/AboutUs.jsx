@@ -11,7 +11,7 @@ function AboutUs() {
             to professional designer. Learn by doing, get mentorship from experts,
             and join a vibrant community of creatives. 
           </p>
-          <a href="/courses" className="btn-link">Explore Courses</a>
+          <a href="#courses" className="btn-link">Explore Courses</a>
         </div>
         <div className="about-image">
           <img src="images/about-illustration.jpg" alt="UI Design Illustration" />

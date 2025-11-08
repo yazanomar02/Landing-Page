@@ -11,9 +11,9 @@ const graduates = [
   { id: 8, image: "/images/graduates/19.png" },
   { id: 9, image: "/images/graduates/20.png" },
   { id: 10, image: "/images/graduates/21.png" },
-  { id: 10, image: "/images/graduates/22.png" },
-  { id: 10, image: "/images/graduates/23.png" },
-  { id: 10, image: "/images/graduates/24.png" }
+  { id: 11, image: "/images/graduates/22.png" },
+  { id: 12, image: "/images/graduates/23.png" },
+  { id: 13, image: "/images/graduates/24.png" }
 ];
 
 function Graduated() {

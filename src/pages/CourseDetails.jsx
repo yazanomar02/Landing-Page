@@ -27,7 +27,7 @@ function CourseDetails() {
   return (
     <section className="course-details">
       <div className="details-container">
-        <Link to="/courses" className="back-btn">
+        <Link to="/" className="back-btn">
           <ArrowLeft size={18} /> Back to Courses
         </Link>
 
