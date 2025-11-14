@@ -5,18 +5,36 @@ function Hero() {
 
   return (
     <section id="hero" className="hero">
-      <div className="hero-header">
-        <h1 className="hero-logo">UI Mastery</h1>
-      </div>
+      <div className="hero-container">
+        <div className="hero-text">
+          <h1>
+            Learn Any Skills <br /> To Advance Your <br /> Career Path
+          </h1>
+          <div className="vector">
+            <img src="/src/assets/Vector 1.png" alt="Vector 1" />
+          </div>
 
-      <div className="hero-content">
-        <h2>Master the Art of UI/UX Design</h2>
-        <p>
-          Build stunning interfaces and elevate user experiences with our expert-led courses.
-        </p>
-        <Link to="/courses" className="hero-button">
-          Start Learning Now
-        </Link>
+          <p>
+            Want to improve your work skills? You need to study harder with the help of a great mentor to improve your performance at work.
+          </p>
+
+          <div className="hero-actions">
+            <Link to="/" className="hero-btn">
+              Explore Path
+            </Link>
+
+            <div className="hero-rating">
+              <img src="/src/assets/user 1.png" alt="User 1" />
+              <img src="/src/assets/user 2.png" alt="User 2" />
+              <span className="stars">⭐⭐⭐⭐☆</span>
+              <small>(4.5/5 from 10k Alumni)</small>
+            </div>
+          </div>
+        </div>
+
+        <div className="hero-image">
+          <img src="/src/assets/Learning - Video Course 1 (1).png" alt="Learning Illustration" />
+        </div>
       </div>
     </section>
   );

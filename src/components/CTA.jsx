@@ -6,18 +6,14 @@ function CTA() {
     <section className="cta-section">
       <div className="cta-container">
         <div className="cta-text">
-          <h3>Still confused about your career choice?</h3>
-          <p>
-            Our experts are here to guide you toward the right path.
-            Book a free consultation today and discover your next step in UI/UX design.
-          </p>
+          <h3>Still confused about your career choice? consult with our experts</h3>
           <a href="#contactUs" className="cta-button">
-            Consult With Our Experts
+            Contact Us
           </a>
         </div>
 
         <div className="cta-image">
-          <img src="/images/cta.jpeg" alt="Consulting experts" />
+          <img src="/src/assets/cta .png"/>
         </div>
       </div>
     </section>

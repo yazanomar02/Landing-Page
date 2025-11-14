@@ -19,7 +19,7 @@ const graduates = [
 function Graduated() {
   return (
     <section className="graduates-section">
-      <h3>Our Graduates</h3>
+      <h3>Our graduates have worked in</h3>
       <div className="graduates-grid">
         {graduates.map(grad => (
           <div key={grad.id} className="graduate-card">

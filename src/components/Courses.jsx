@@ -18,7 +18,7 @@ function Courses() {
 
   return (
     <section id="courses" className="courses-section">
-      <h2 className="courses-title">Available Courses</h2>
+      <h2 className="courses-title">Discover Course & Bootcamp</h2>
 
       <FilterButtons currentFilter={filter} setFilter={setFilter} />
 
