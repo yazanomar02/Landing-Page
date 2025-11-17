@@ -39,6 +39,10 @@ body {
   padding-top: 90px;
 }
 
+body.no-header {
+  padding-top: 0 !important;
+}
+
 button {
   background-color: var(--primary-color);
   color: #fff;

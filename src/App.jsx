@@ -8,20 +8,34 @@ import { AppProvider } from './context/AppContext';
 import Login from './pages/Login';
 import ProtectedRoute from './routes/ProtectedRoute';
 import SignUp from './pages/SignUp';
+import UserManagement from './pages/userManagement/UserManagement';
+import { useEffect } from "react";
+
 
 function App() {
+  // حجب كل من الهدر والفوتر من صفحة اليوزرز 
+  const hiddenRoutes = ["/users"];
+  const hideLayout = hiddenRoutes.includes(location.pathname);
+
+  useEffect(() => {
+    hideLayout ? document.body.classList.add("no-header") : document.body.classList.remove("no-header");
+  }, [hideLayout]);
+
   return (
-    <AppProvider>
-      <Header />
+    <AppProvider >
+      {!hideLayout && <Header />}
 
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/signUp' element={<SignUp />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/course/:id' element={<ProtectedRoute><CourseDetails /></ProtectedRoute>} />
-      </Routes>
+      <main className={hideLayout ? "no-header" : ""}>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/signUp' element={<SignUp />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/course/:id' element={<ProtectedRoute><CourseDetails /></ProtectedRoute>} />
+          <Route path="/users" element={<UserManagement />} />
+        </Routes>
+      </main>
 
-      <Footer />
+      {!hideLayout && <Footer />}
     </AppProvider>
   );
 }
