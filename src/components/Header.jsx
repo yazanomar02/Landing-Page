@@ -14,6 +14,7 @@ function Header() {
 
         <nav className="nav-links">
           <Link to="/">Home</Link>
+          <Link to="/users">Users Management</Link>
           <a href="#courses">Courses</a>
           <a href="#bootcamp">Bootcamp</a>
           <a href="#events">Events</a>
